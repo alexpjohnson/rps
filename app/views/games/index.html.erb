@@ -1,0 +1,6 @@
+<%= form_for :game, url: throw_path do |f| %>
+<p>
+	<%= f.select :sign, ['rock', 'paper', 'scissors'] %>
+</p>
+<%= f.submit %>
+<% end %>

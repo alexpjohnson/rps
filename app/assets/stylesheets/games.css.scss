@@ -1,0 +1,23 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@mixin setupPage {
+	min-height: 100%;
+	height: 1000px;
+	text-align: center;
+}
+body {
+	margin: 0px;
+}
+.win {
+	@include setupPage;
+	background-color: lightgreen;
+}
+.lose {
+	@include setupPage;
+	background-color: red;
+}
+.tie {
+	@include setupPage;
+	background-color: yellow;
+}
